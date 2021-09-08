@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+/* font-family: 'Raleway', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@700&display=swap');
+/* font-family: 'Kaisei HarunoUmi', serif; */
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-weight: bold;
+}
+
+h5:hover{
+      color:#ffb83c;
+      transition:1s;
+}
+h4:hover{
+    color:#ffb83c;
+    transition:1s;
+}
+h3:hover{
+    color:#ffb83c;
+    transition:1s;
+}
+h2:hover{
+    color:#ffb83c;
+    transition:1s;
+}
+h1:hover{
+    color:#ffb83c;
+    transition:1s;
+}
+i:hover{
+    color:#ffb83c;
+    transition:1s;
+}
+
+.sec4 i{
+    font-size:30px;
+}
+
+.btns{
+    margin-top:50px;
+    background-color: rgb(34, 34, 34);
+    color:#fff;
+    border-color: transparent;
+    font-size: 15px;
+    border-radius: 2px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    padding:5px;
+}
+
+.btns:hover{
+background-color:#ffb83c;
+color:black;
+transition:0.5S;
+}
+
+
+img:hover{
+    transform: scale(0.9);
+    transition:1s;
+    opacity:60%
+}
+
+@media screen and (max-width:1000px)and (min-width:768px)
+{
+  .sec3 .ra h1{
+     font-size:25px;
+     margin-bottom:-80px;
+     margin-top:-50px;
+    
+  }
+  .sec3 .ra h4{
+      font-size:20px;
+      margin-bottom:-80px;
+     
+  }
+  p{
+      font-size:12px;
+  }
+
+  .sec3 .btns{
+      margin-top:-100px;
+  }
+  .row{
+      margin:50px auto 50px auto;
+  }
+
+  .sec4 i{
+      font-size:25px;
+  }
+  .sec4 h4{
+      font-size:20px
+  }
+}
+
+@media screen and (max-width:768px){
+    .top .row .logo{
+        display: flex;
+        justify-content: center;
+    }
+    /* img{
+        transform: scale(0.9);
+    } */
+    h1, h2, h3, h4, h5, p{
+        transform:scale(0.7)
+    }
+    .top .row .menu ul li{
+        margin-right:5px;
+        text-align: center;
+    }
+    .top .row .menu ul{
+        display:flex;
+        flex-direction: column;
+        margin-top:50px;
+    }
+    *{
+        justify-content: center;
+    }
+
+    .sec1a h1{
+transform: translateY(-60px);
+    }
+
+    .sec1a .aaa{
+        transform: translateY(-50px);
+    }
+
+    .btns{
+        align-self: center;
+    }
+    .sec2 .ra .col-md-6{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec2 .ra{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .sec2 .rb{
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+    }
+
+    .sec2 .rb .got{
+            transform: translateY(-100px);
+    }
+    .sec2 .text .prise{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin:0 auto 0 auto;
+    }
+
+    
+
+    .sec2 .ra .text{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .sec2 .rb .text{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .sec1a .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sec1a .row h1{
+        margin-top:-100px;
+    }
+    .sec2 .text h2{
+        margin-top:-100px;
+        
+        
+    }
+    .sec3{
+        transform: translateY(-100px);
+    }
+    
+    .sec3 .ra{
+        margin-top:100px;
+    }
+    .sec3 .text h1, h4, p{
+        display: flex;
+        justify-content: center;
+    } 
+    .sec3 h4{
+    transform: translateY(-80px);
+    }
+
+    .sec3 p{
+        transform: translateY(-100px);
+    }
+
+    .sec3 .ra h1{
+        margin-top:-300px;     
+    }
+    .sec3 .rb{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sec3 .bt{
+        display: flex;
+        justify-content: center;
+        transform: translateY(-100px);
+    }
+
+    .footer .row h5{
+        text-decoration: underline;
+    }
+
+    .btns{
+        transform: scale(0.7);
+    }
+    .testm .text .post span{
+        display: flex;
+        margin-left:-100px;
+        font-size:10px;
+    }
+
+    .sec4{
+        transform: translateY(-200px);
+    }
+.testm{
+    transform: translateY(-150px);
+}
+    .join{
+        transform: translateY(-250px);
+    }
+
+    .join .in .col-10 .joinbtn{
+        font-size:10px;
+    }
+    .blogs{
+        transform: translateY(-300px);
+    }
+
+    .blogs .pic img{
+        transform: translateY(-40px);
+    }
+
+    .blogs .pic h4{
+        transform: translateY(-40px);
+    }
+
+    .blogs .pic p{
+        transform: translateY(-40px);
+        margin-bottom:100px;
+    }
+
+    .footer{
+        transform: translateY(-400px);
+    }
+    .bottom{
+        transform: translateY(-500px);
+    }
+
+}
+
+
+
+
+/* .......................................................top...................... */
+
+
+.top .row .logo span{  
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight:bolder;
+}
+
+.top .row .menu ul li{
+    list-style-type: none;
+    display: block;
+    margin-right: 30px;   
+    background-color: rgb(255, 255, 255);
+    padding:7px;
+}
+
+.top .row .menu ul li:hover{
+    background-color:#ffb83c;;
+
+    transition:0.5s;
+    border-radius: 5px;
+
+
+}
+
+.top .row .menu ul{
+    display: flex;
+    justify-content:center;
+}
+
+
+.top .row .menu ul li a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    display: block;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.top .row .menu ul{
+    display:flex;
+}
+
+
+/* ....................................................sec-1............................... */
+
+.sec1 .row .col-md-6 img{
+    width:100%;
+}
+
+.sec1 .row .col-md-6 h2{
+    margin-bottom:30px;
+    font-family: 'Kaisei HarunoUmi', serif;
+
+}
+
+
+/* .......................sec1a.................... */
+.sec1a{
+    margin-top:-50px;
+}
+
+
+.sec1a .row .col-md-6 h1{
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight:bolder;
+    text-align: center;
+    margin-top:50px;
+}
+
+.sec1a .row .col-md-6 h4{
+    font-size:20px;
+
+}
+.sec1a .row .col-md-6 p{
+    font-size: 15px;
+}
+
+.sec1a .row .col-md-6 img{
+    width:95%;
+}
+/* ..........................................sec-2............................. */
+
+.sec2 .col-md-6 img{
+    width:95%;
+}
+
+.sec2 .col-md-6 h2{
+    margin:50px 0 30px 0;
+}
+
+.sec2 .col-md-6 p{
+    margin-bottom:20px;
+}
+
+.sec2 .col-md-6 .size{
+    letter-spacing: 25px;
+   
+}
+
+.sec2 .col-md-6 .rs{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left:20px;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+/* ...........................................sec-4 start................companies.............. */
+
+
+
+.sec2 .rb .col-md-6 h2{
+    margin-top:100px;
+
+}
+
+.sec2 .col-md-6 .btns{
+    margin-top:50px;
+    background-color: rgb(34, 34, 34);
+    color:#fff;
+    border-color: transparent;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.sec2 .col-md-6 .btns:hover{
+        background-color:#ffb83c;
+        color:black;
+        transition:0.5S;
+}
+        
+
+/* ........................................sec-3 start..................... */
+
+.sec3 .row .col-md-6 img{
+    width:90%;
+}
+
+.sec3 .row .col-md-6 h1{
+    margin-top:30px;
+    letter-spacing: 3px;
+}
+
+.sec3 .row .col-md-6 h4{
+    color:rgb(56, 56, 56);
+    margin:100px 0 50px 0
+}
+
+
+/* ...............................Section-4 Start......................... */
+
+.sec4{
+    margin:20px auto 80px auto;
+}
+
+.sec4 .heading h3{
+    text-align: center;
+    letter-spacing:1px;
+    margin-top: 40px;
+    margin-bottom:25px;
+}
+
+.sec4 .row .col-md-2{
+    letter-spacing: 1px;
+    margin-top:20px;
+}
+/* ............................................testimonial start.................... */
+
+.testm .row .col-md-4{
+    background-color: rgb(184, 184, 184);
+    
+}
+
+.testm .row .col-md-4 img{
+    width:80%;
+    margin-bottom:-20px;
+}
+
+.testm .row .col-md-4 .ra img{
+    width:70px;
+    margin:5px;
+    margin-top:-50px;
+
+}
+
+.testm .row .col-md-4 .ra{
+  margin-bottom:-50px;
+}
+
+
+.testm .row h5{
+    margin-top: 20px;;
+}
+.testm span{
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+    font-size:15px;
+}
+
+.testm .row p{
+    margin-top:30px;
+}
+
+.testm .row .col-md-8 {
+    padding:50px;
+}
+
+/* .......................................join start.......................... */
+
+.join{
+    margin:50px auto 60px auto;
+}
+
+.join .row .col-10 input{
+    width:500px;
+  height:35px;
+}
+
+.join .row .col-10 button{
+    height:35px;
+    background-color: rgb(44, 44, 44);
+    border-color: transparent;
+    width:100px;
+    font-size:13px;
+    color: #fff;
+    padding:10px auto 10px auto;
+}
+
+.join .row .col-10 button:hover{
+        background-color:#ffb83c;
+        font-weight: bold;
+        color:black;
+        transition:0.5S;
+}
+
+.join h2{
+    margin-top: 30px;
+}
+
+/* ..............................................blogs start.............................. */
+
+.blogs{
+    margin:50px auto 50px auto;
+}
+
+.blogs .row .col-md-3 img{
+    width:100%;
+}
+
+.blogs .row .col-md-3 h4{
+    margin:20px auto 30px auto;
+}
+
+/* ........................footer start............................................. */
+
+.footer{
+    margin-bottom:100px;
+}
+
+
+.footer .row h5{
+    margin-top:30px;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+
+.footer .row span{
+ line-height: 10px;
+ font-size: 15px;
+ font-weight:550;
+}
+
+.footer .row i{
+    font-size: 25px;
+    margin-right:10px;
+}
+
+.footer .row i:hover{
+    transform: scale(1.2);
+}
+
+.bottom{
+    background-color: rgb(61, 61, 61);
+    padding:0px;
+   
+  
+}
+
+.bottom .row p{
+    margin-top:15px;
+    color:#fff;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 15px;;
+}
+
+.bottom .col{
+    padding:5px;
+}
